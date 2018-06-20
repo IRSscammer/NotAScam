@@ -1,0 +1,15 @@
+body {
+ color: white;
+  height: 40000px;
+  background-image: url("https://i.ytimg.com/vi/i5feB8Flp8A/hqdefault.jpg");
+}
+#object{
+  position: fixed;
+  bottom: 100px;
+  left: 100px;
+
+}
+#corn {
+  top: 2000px;
+  left: 50px;
+}

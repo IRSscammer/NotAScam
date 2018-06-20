@@ -1,0 +1,67 @@
+*{
+  user-select: none;
+}
+#thing {
+  width = 800px;
+  height = 1700px;
+  padding: 50px;
+
+}
+#bob {
+  position:relative;
+  right: 730px;
+  bottom: 480px;
+}
+#spin {
+  float: left;
+}
+#arrow {
+  position: relative;
+  float: left;
+  bottom: 460px;
+  left: 420px;
+}
+.tempo {
+  background-image: url("https://www.att.com/catalog/en/skus/images/apple-iphone%20x-space%20gray-450x350.png");
+}
+/* Style the container with a rounded border, grey background and some padding and margin */
+.container {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+}
+
+/* Clear floats after containers */
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/* Increase the font-size of a span element */
+.container span {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 500px) {
+  .container {
+    text-align: center;
+  }
+
+  .container img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
